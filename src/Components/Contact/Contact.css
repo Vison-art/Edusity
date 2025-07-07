@@ -54,3 +54,23 @@
   display: block;
   margin: 20px 0;
 }
+
+/* --------- Media Queries --------- */
+
+@media screen and (max-width: 800px) {
+  .contact {
+    display: block;
+  }
+  .contact-col {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+
+  .contact-col p {
+    min-width: 250px;
+    
+
+  }
+}
